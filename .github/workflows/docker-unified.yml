@@ -44,5 +44,5 @@ jobs:
         with:
           context: .
           file: ./docker/datahub-frontend/Dockerfile
-          tags: ${{ steps.docker_meta.outputs.tags }}
+          tags: latest
           push: true
