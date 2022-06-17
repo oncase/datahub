@@ -44,5 +44,5 @@ jobs:
         with:
           context: .
           file: ./docker/datahub-frontend/Dockerfile
-          tags: latest
+          tags: ${{ env.DATAHUB_FRONTEND_IMAGE }}:latest
           push: true
