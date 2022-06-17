@@ -12,6 +12,9 @@ on:
     paths-ignore:
       - 'docs/**'
       - '**.md'
+  workflow_dispatch:
+    branches:
+      - master
 
 env:
   DATAHUB_FRONTEND_IMAGE: 'oncasedevops/datahub-frontend-react'
